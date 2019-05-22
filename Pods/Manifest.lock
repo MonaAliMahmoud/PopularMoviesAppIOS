@@ -1,0 +1,57 @@
+PODS:
+  - AFNetworking (2.7.0):
+    - AFNetworking/NSURLConnection (= 2.7.0)
+    - AFNetworking/NSURLSession (= 2.7.0)
+    - AFNetworking/Reachability (= 2.7.0)
+    - AFNetworking/Security (= 2.7.0)
+    - AFNetworking/Serialization (= 2.7.0)
+    - AFNetworking/UIKit (= 2.7.0)
+  - AFNetworking/NSURLConnection (2.7.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.7.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.7.0)
+  - AFNetworking/Security (2.7.0)
+  - AFNetworking/Serialization (2.7.0)
+  - AFNetworking/UIKit (2.7.0):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - HCSStarRatingView (1.5)
+  - Realm (3.14.1):
+    - Realm/Headers (= 3.14.1)
+  - Realm/Headers (3.14.1)
+  - SDWebImage (4.4.6):
+    - SDWebImage/Core (= 4.4.6)
+  - SDWebImage/Core (4.4.6)
+  - youtube-ios-player-helper (0.1.6)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.0)
+  - HCSStarRatingView (~> 1.5)
+  - Realm
+  - Realm/Headers
+  - SDWebImage (~> 4.0)
+  - youtube-ios-player-helper (~> 0.1.4)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - HCSStarRatingView
+    - Realm
+    - SDWebImage
+    - youtube-ios-player-helper
+
+SPEC CHECKSUMS:
+  AFNetworking: 8dd5f9b9691e09186393069a12cc3b5ed7c8b511
+  HCSStarRatingView: 1d18f79654735514cd6f00e6d90e38cb6320dc31
+  Realm: e12c9c2387d05c5bba3a9c394838f5870e85763b
+  SDWebImage: 3f3f0c02f09798048c47a5ed0a13f17b063572d8
+  youtube-ios-player-helper: 21ab92db027c7ff86cb17a3843a3f6eafc8158d2
+
+PODFILE CHECKSUM: 1d1f6d1eb470def22b3a7dfd69fd1211c766fc7b
+
+COCOAPODS: 1.6.1
